@@ -12,7 +12,19 @@ public class Main {
         System.out.println("Значение переменной c c типом int равно " + c);
         System.out.println("Значение переменной d c типом long равно " + d);
         System.out.println("Значение переменной e c типом float равно " + e);
-        System.out.println("Значение переменной f c типом double равно " + f);
+        System.out.println("Значение переменной f c типом double равно " + f); // задача1
+
+        float a2 = 27.12f;
+        long b2 = 987678965549L;
+        double c2 = 2.786;
+        int d2 = 569;
+        short e2 = -159;
+        short f2 = 27897;
+        byte g2 = 67; //задача 2
+
+
+
+
 
     }
 }
