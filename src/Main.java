@@ -22,6 +22,13 @@ public class Main {
         short f2 = 27897;
         byte g2 = 67; //задача 2
 
+        byte studentLp = 23;
+        byte studentAs = 27;
+        byte studentEa = 30;
+        short summListov = 480;
+        float listovNaodnogo = summListov / (studentLp+studentEa+studentAs);
+        System.out.println("На каждого ученика рассчитано " + listovNaodnogo + " листов бумаги"); //задача3
+
 
 
 
