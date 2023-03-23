@@ -61,5 +61,16 @@ public class Main {
         float weightOneEgg = 70;
         double weightBreakfast = (countBananas * weightOnebananaIngramm) + (countMilk * weightOneMlMilk) + (countIcecream * weightOneIcecream) + (countEggs*weightOneEgg) ;
         System.out.println(" Вес спортзавтрака составляет " + weightBreakfast + " грамм или " + weightBreakfast / 1000 + " кг.");
+        System.out.println(" Задача 7");
+        float loseWeight = 7;
+        float badResult = 0.25f;
+        float goodResult = 0.5f;
+        float countDaysBad = loseWeight / badResult;
+        float countDaysGood = loseWeight / goodResult;
+        float averageDaysForLose = (countDaysBad + countDaysGood) / 2;
+        System.out.println(" Необходимое количество дней, при худении на 250 грамм в день, составляет " + countDaysBad + " дней");
+        System.out.println(" Необходимое количество дней, при худении на 500 грамм в день, составляет " + countDaysGood + " дней");
+        System.out.println(" Среднее количество дней, чтобы добиться результата составляет " + averageDaysForLose + " день(дней)");
+        System.out.println(" Задача 8");
     }
 }
