@@ -59,7 +59,7 @@ public class Main {
         float weightOneIcecream = 100;
         byte countEggs = 4;
         float weightOneEgg = 70;
-        double weightBreakfast = (countBananas * weightOnebananaIngramm) + (countMilk * weightOneMlMilk) + (countIcecream * weightOneIcecream) + (countEggs*weightOneEgg) ;
+        double weightBreakfast = (countBananas * weightOnebananaIngramm) + (countMilk * weightOneMlMilk) + (countIcecream * weightOneIcecream) + (countEggs * weightOneEgg);
         System.out.println(" Вес спортзавтрака составляет " + weightBreakfast + " грамм или " + weightBreakfast / 1000 + " кг.");
         System.out.println(" Задача 7");
         float loseWeight = 7;
@@ -72,5 +72,18 @@ public class Main {
         System.out.println(" Необходимое количество дней, при худении на 500 грамм в день, составляет " + countDaysGood + " дней");
         System.out.println(" Среднее количество дней, чтобы добиться результата составляет " + averageDaysForLose + " день(дней)");
         System.out.println(" Задача 8");
+        float zpMari = 67760;
+        float zpDenis = 83690;
+        float zpKristina = 76230;
+        float zp10Mari = (float) (zpMari * 1.1);
+        float zp10Denis = (float) (zpDenis * 1.1);
+        float zp10Kristina = (float) (zpKristina * 1.1);
+        float diffMari = 12 * (zp10Mari - zpMari);
+        float diffDenis = 12 * (zp10Denis - zpDenis);
+        float diffKristina = 12 * (zp10Kristina - zpKristina);
+        System.out.println(" Маша получает теперь " + zp10Mari + " рублей, годовой доход вырос на " + diffMari + " рублей.");
+        System.out.println(" Маша получает теперь " + zp10Denis + " рублей, годовой доход вырос на " + diffDenis + " рублей.");
+        System.out.println(" Маша получает теперь " + zp10Kristina + " рублей, годовой доход вырос на " + diffKristina + " рублей.");
+
     }
 }
