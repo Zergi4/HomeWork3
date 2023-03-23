@@ -39,7 +39,14 @@ public class Main {
         System.out.println(" За сутки машина произвела " + bottles2 + " штук бутылок");
         System.out.println(" За 3 суток машина произвела " + bottles3 + " штук бутылок");
         System.out.println(" За 1 месяц машина произвела " + bottles4 + " штук бутылок");
-
-
+        System.out.println(" Задача 5");
+            byte totalCans = 120;
+            byte oneClasswhite = 2;
+            byte oneClassbrown = 4;
+            float canOneclass = (byte) (oneClasswhite + oneClassbrown);
+            float totalClasses = totalCans / canOneclass;
+            float totalWhite = totalClasses * oneClasswhite;
+            float totalBrown = totalClasses * oneClassbrown;
+        System.out.println(" В школе, где " + totalClasses + " классов, нужно " + totalWhite + " банок белой краски и " + totalBrown + " банок коричневой краски." );
     }
 }
