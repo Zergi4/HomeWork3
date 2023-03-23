@@ -4,7 +4,7 @@ public class Main {
         byte a = 1;
         short b = 128;
         int c = 33333;
-        long d = 111;
+        long d = 111L;
         float e = 3.14f;
         double f = 3.33333333;
         System.out.println(" Задача 1");
@@ -28,7 +28,7 @@ public class Main {
         byte studentLp = 23;
         byte studentAs = 27;
         byte studentEa = 30;
-        float summListov = 480;
+        float summListov = 480f;
         float listovNaodnogo = summListov / (studentLp + studentEa + studentAs);
         System.out.println("На каждого ученика рассчитано " + listovNaodnogo + " листов бумаги"); //задача3
         System.out.println(" Задача 4");
@@ -52,17 +52,17 @@ public class Main {
         System.out.println(" В школе, где " + totalClasses + " классов, нужно " + totalWhite + " банок белой краски и " + totalBrown + " банок коричневой краски.");
         System.out.println(" Задача 6");
         byte countBananas = 5;
-        float weightOnebananaIngramm = 80;
-        float countMilk = 200;
-        float weightOneMlMilk = 1.05F;
+        float weightOnebananaIngramm = 80f;
+        float countMilk = 200f;
+        float weightOneMlMilk = 1.05f;
         byte countIcecream = 2;
-        float weightOneIcecream = 100;
+        float weightOneIcecream = 100f;
         byte countEggs = 4;
-        float weightOneEgg = 70;
+        float weightOneEgg = 70f;
         double weightBreakfast = (countBananas * weightOnebananaIngramm) + (countMilk * weightOneMlMilk) + (countIcecream * weightOneIcecream) + (countEggs * weightOneEgg);
         System.out.println(" Вес спортзавтрака составляет " + weightBreakfast + " грамм или " + weightBreakfast / 1000 + " кг.");
         System.out.println(" Задача 7");
-        float loseWeight = 7;
+        float loseWeight = 7f;
         float badResult = 0.25f;
         float goodResult = 0.5f;
         float countDaysBad = loseWeight / badResult;
@@ -72,9 +72,9 @@ public class Main {
         System.out.println(" Необходимое количество дней, при худении на 500 грамм в день, составляет " + countDaysGood + " дней");
         System.out.println(" Среднее количество дней, чтобы добиться результата составляет " + averageDaysForLose + " день(дней)");
         System.out.println(" Задача 8");
-        float zpMari = 67760;
-        float zpDenis = 83690;
-        float zpKristina = 76230;
+        float zpMari = 67760f;
+        float zpDenis = 83690f;
+        float zpKristina = 76230f;
         float zp10Mari = (float) (zpMari * 1.1);
         float zp10Denis = (float) (zpDenis * 1.1);
         float zp10Kristina = (float) (zpKristina * 1.1);
