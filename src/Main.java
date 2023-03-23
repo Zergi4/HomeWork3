@@ -19,8 +19,10 @@ public class Main {
         long b2 = 987678965549L;
         double c2 = 2.786;
         int d2 = 569;
-        short e2 = -159;
-        short f2 = 27897;
+        short e2;
+        e2 = -159;
+        short f2;
+        f2 = 27897;
         byte g2 = 67; //задача 2
         System.out.println(" Задача 3");
         byte studentLp = 23;
